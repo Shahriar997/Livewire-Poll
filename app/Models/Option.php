@@ -11,6 +11,8 @@ class Option extends Model
 {
     use HasFactory;
 
+    protected $fillable = ['name'];
+
     /**
      * relation with poll
      * 

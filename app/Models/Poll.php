@@ -10,6 +10,7 @@ class Poll extends Model
 {
     use HasFactory;
 
+    protected $fillable = ['title'];
     /**
      * relation with option
      * 
